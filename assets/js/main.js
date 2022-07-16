@@ -1,11 +1,23 @@
 // buying price is ksh 45
 
-var sellingPrice = 45;
+let sellingPrice = 45;
+
+
 // Writing a function that gives you a report on how much milk is produced per shed and the total amount of milk produced by all sheds.
 
-function totalProdution(params) {
-    
+let sheds = {
+    'A': 510,
+    'B': 308,
+    'C': 486,
+    'D': 572
 }
+function totalProdution({A,B,C,D}) {
+    let totalProdution = (A + B + C + D)
+    return totalProdution
+}
+console.log(totalProdution(sheds));
+
+// console.log(sheds);
 
 // Writing a function that takes in the Brookside buying rate as one of its arguments, gives you a report on how much pay you'll receive over time. For instance, it can give a report on how much you will earn on a weekly basis or even on a yearly basis. For example;
 
