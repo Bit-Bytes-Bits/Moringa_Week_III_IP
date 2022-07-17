@@ -32,11 +32,11 @@ document.getElementById("dailysubmit").addEventListener("click", function() {
 function totalProduction(a , b, c, d){
    
     dailyTotal = (a+b+c+d);
-    document.getElementById("calculateDaily").value = "sasa " + dailyTotal;
+    document.getElementById("calculateDaily").value = "The total production is " + dailyTotal + " liters per day.";
     // console.log(a+b);
-    document.getElementById("calculateWeekly").value = "sasa " + (selling_price * dailyTotal*time[0]);
+    document.getElementById("calculateWeekly").value = "Your weekly income will be Ksh " + (selling_price * dailyTotal*time[0]);
 
-    document.getElementById("calculateYearly").value = "sasa " + (selling_price * dailyTotal*time[1]);
+    document.getElementById("calculateYearly").value = "Your yearly income will be Ksh " + (selling_price * dailyTotal*time[1]);
 }
 // console.log
 
