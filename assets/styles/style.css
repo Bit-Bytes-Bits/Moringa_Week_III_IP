@@ -53,13 +53,14 @@
 .popup-form{
     border: solid blue;
     background-color: #fafafa;
-    width: 50%;
-    height: 70%;
+    width: 70%;
+    height: 80%;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items:flex-start;
     flex-direction: column;
     position: relative;
+    overflow: scroll;
    
 }
 
@@ -83,6 +84,7 @@
     
 }
 
-/* input{
+input{
     /* justify-content: space-between; */
-} */
+    /* margin: 1%; */
+}
