@@ -12,11 +12,6 @@ closeform.addEventListener('click', function(){
     popupformbg.classList.remove('popup-form-bg-active');
 })
 
-// variables
-
-// var firstShedd = parseInt(document.getElementById('shedA').value);
-// console.log(firstShedd);
-// var secondShed = parseInt(document.getElementById(shedB).value);
 let a = parseInt(document.getElementById('shedA').value);
 let b = parseInt(document.getElementById('shedB').value);
 let c = parseInt(document.getElementById('shedC').value);
@@ -31,12 +26,44 @@ document.getElementById("dailysubmit").addEventListener("click", function() {
 
 function totalProduction(a , b, c, d){
    
-    dailyTotal = (a+b+c+d);
-    document.getElementById("calculateDaily").value = "The total production is " + dailyTotal + " liters per day.";
+    dailyMilkProduction = (a+b+c+d);
+    dailyTotal = dailyMilkProduction * selling_price;
+    document.getElementById("calculateDaily").value = "The total production is " + dailyMilkProduction + " liters per day.";
     // console.log(a+b);
-    document.getElementById("calculateWeekly").value = "Your weekly income will be Ksh " + (selling_price * dailyTotal*time[0]);
+    document.getElementById("calculateWeekly").value = "Your weekly income will be Ksh " + (selling_price * dailyMilkProduction*time[0]);
 
-    document.getElementById("calculateYearly").value = "Your yearly income will be Ksh " + (selling_price * dailyTotal*time[1]);
+    document.getElementById("calculateYearly").value = "Your yearly income will be Ksh " + (selling_price * dailyMilkProduction*time[1]);
+
+    incomeJanuary = dailyTotal * 31;
+    document.getElementById("january").value = "Your income for January is " + (incomeJanuary);
+    incomeFebruary = dailyTotal * 29;
+    document.getElementById("february").value = "Your income for February is " + (incomeFebruary);
+    incomeMarch = dailyTotal * 31;
+    document.getElementById("march").value = "Your income for March is " + (incomeMarch);
+    incomeApril = dailyTotal * 30;
+    document.getElementById("april").value = "Your income for April is " + (incomeApril);
+    incomeMay = dailyTotal * 31;
+    document.getElementById("may").value = "Your income for May is " + (incomeMay);
+    incomeJune = dailyTotal * 30;
+    document.getElementById("june").value = "Your income for June is " + (incomeJune);
+    incomeJuly = dailyTotal * 31;
+    document.getElementById("july").value = "Your income for July is " + (incomeJuly);
+    incomeAugust = dailyTotal * 31;
+    document.getElementById("august").value = "Your income for August is " + (incomeAugust);
+    incomeSeptember = dailyTotal * 30;
+    document.getElementById("september").value = "Your income for September is " + (incomeSeptember);
+    incomeOctober = dailyTotal * 31;
+    document.getElementById("october").value = "Your income for October is " + (incomeOctober);
+    incomeNovember = dailyTotal * 30;
+    document.getElementById("november").value = "Your income for November is " + (incomeNovember);
+    incomeDecember = dailyTotal * 31;
+    document.getElementById("december").value = "Your income for December is " + (incomeDecember);
+
+
+    
+
+
+
 }
 // console.log
 
