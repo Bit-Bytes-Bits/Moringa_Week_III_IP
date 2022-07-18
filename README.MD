@@ -24,12 +24,15 @@ Reach out on Twitter:
 - [Requirements](#requirements)
 - [Program Setup](#program-setup)
 - [Live Link](#live-link-to-project)
+- [Project Images](#project-images)
 - [License](#license-information)
 
 ## Description
 This project is a demonstration of the concepts learnt from week 1 to week 3. Its aim is to create a production monitoring system for dairy cows that should take input in form of liters and price in Kenyan Shillings and produces the desired output.  
           
 It is also capable of comparing price change when the buying price is adjusted accordingly. 
+
+
 
 ## Project Build Up
 
@@ -65,6 +68,15 @@ It is also capable of comparing price change when the buying price is adjusted a
 
 [Click here](https://bit-bytes-bits.github.io/Moringa_Week_III_IP/)
 
+## Project Images
+Image 1
+![view](./assets/images/landing-page.png)  
+
+Image 2
+![view](/assets/images/pop-up-form.png)  
+
+Image 3
+![view](/assets/images/pop-up-form-in-action.png)
 ## License Information
 
 The MIT License (MIT)
