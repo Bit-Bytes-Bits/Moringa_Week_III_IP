@@ -10,7 +10,7 @@
     height: 100vh;
     justify-content: center;
     text-align: center;
-    background-image: url("/assets/images/cows.png");
+    background-image: url("../images/cows.png");
     background-size: cover;
 }
 
