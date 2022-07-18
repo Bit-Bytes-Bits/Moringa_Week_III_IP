@@ -61,7 +61,7 @@ It is also capable of comparing price change when the buying price is adjusted a
 
 2. Open the root of the folder on your visual studio code.
 
-3. Run Live share and view the rendered page. 
+3. Run Live share and view the rendered page on your browser. 
 
 
 ## Live Link To Project:  
