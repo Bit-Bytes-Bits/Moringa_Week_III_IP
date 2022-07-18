@@ -56,7 +56,7 @@
 
 .popup-form-bg-active {
     visibility: visible;
-    opacity: 0.9;
+    opacity: 1;
 }
 
 .popup-form {
