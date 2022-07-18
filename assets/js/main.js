@@ -12,6 +12,8 @@ closeform.addEventListener("click", function () {
   popupformbg.classList.remove("popup-form-bg-active");
 });
 
+//  calculations commence
+
 let a = parseInt(document.getElementById("shedA").value);
 let b = parseInt(document.getElementById("shedB").value);
 let c = parseInt(document.getElementById("shedC").value);
@@ -80,80 +82,79 @@ function totalProduction(a, b, c, d) {
 
   newIncomeJanuary = newDailyTotal * 31;
   document.getElementById("newPrice-january").value =
-    "Your income for January is " + newIncomeJanuary;
+    "Your new income for January is " + newIncomeJanuary;
   newIncomeFebruary = newDailyTotal * 29;
   document.getElementById("newPrice-february").value =
-    "Your income for February is " + newIncomeFebruary;
+    "Your new income for February is " + newIncomeFebruary;
   newIncomeMarch = newDailyTotal * 31;
   document.getElementById("newPrice-march").value =
-    "Your income for March is " + newIncomeMarch;
+    "Your new income for March is " + newIncomeMarch;
   newIncomeApril = newDailyTotal * 30;
   document.getElementById("newPrice-april").value =
-    "Your income for April is " + newIncomeApril;
+    "Your new income for April is " + newIncomeApril;
   newIncomeMay = newDailyTotal * 31;
   document.getElementById("newPrice-may").value =
-    "Your income for May is " + newIncomeMay;
+    "Your new income for May is " + newIncomeMay;
   newIncomeJune = newDailyTotal * 30;
   document.getElementById("newPrice-june").value =
-    "Your income for June is " + newIncomeJune;
+    "Your new income for June is " + newIncomeJune;
   newIncomeJuly = newDailyTotal * 31;
   document.getElementById("newPrice-july").value =
-    "Your income for July is " + newIncomeJuly;
+    "Your new income for July is " + newIncomeJuly;
   newIncomeAugust = newDailyTotal * 31;
   document.getElementById("newPrice-august").value =
-    "Your income for August is " + newIncomeAugust;
+    "Your new income for August is " + newIncomeAugust;
   newIncomeSeptember = newDailyTotal * 30;
   document.getElementById("newPrice-september").value =
-    "Your income for September is " + newIncomeSeptember;
+    "Your new income for September is " + newIncomeSeptember;
   newIncomeOctober = newDailyTotal * 31;
   document.getElementById("newPrice-october").value =
-    "Your income for October is " + newIncomeOctober;
+    "Your new income for October is " + newIncomeOctober;
   newIncomeNovember = newDailyTotal * 30;
   document.getElementById("newPrice-november").value =
-    "Your income for November is " + newIncomeNovember;
+    "Your new income for November is " + newIncomeNovember;
   newIncomeDecember = newDailyTotal * 31;
   document.getElementById("newPrice-december").value =
-    "Your income for December is " + newIncomeDecember;
+    "Your new income for December is " + newIncomeDecember;
 
   // ---------- difference in price
   janDifference = newIncomeJanuary - incomeJanuary;
   document.getElementById("janDifference").value =
-    "The difference is ksh " + Math.round(janDifference) + " more.";
+    "You shall earn ksh " + Math.round(janDifference) + " more.";
   febDifference = newIncomeFebruary - incomeFebruary;
   document.getElementById("febDifference").value =
-    "The difference is ksh " + Math.round(febDifference) + " more.";
+    "You shall earn ksh " + Math.round(febDifference) + " more.";
   marDifference = newIncomeMarch - incomeMarch;
   document.getElementById("marDifference").value =
-    "The difference is ksh " + Math.round(marDifference) + " more.";
+    "You shall earn ksh " + Math.round(marDifference) + " more.";
   aprDifference = newIncomeApril - incomeApril;
   document.getElementById("aprDifference").value =
-    "The difference is ksh " + Math.round(aprDifference) + " more.";
+    "You shall earn ksh " + Math.round(aprDifference) + " more.";
   mayDifference = newIncomeMay - incomeMay;
   document.getElementById("mayDifference").value =
-    "The difference is ksh " + Math.round(mayDifference) + " more.";
+    "You shall earn ksh " + Math.round(mayDifference) + " more.";
   junDifference = newIncomeJune - incomeJune;
   document.getElementById("junDifference").value =
-    "The difference is ksh " + Math.round(junDifference) + " more.";
+    "You shall earn ksh " + Math.round(junDifference) + " more.";
   julDifference = newIncomeJuly - incomeJuly;
   document.getElementById("julDifference").value =
-    "The difference is ksh " + Math.round(julDifference) + " more.";
+    "You shall earn ksh " + Math.round(julDifference) + " more.";
   augDifference = newIncomeAugust - incomeAugust;
   document.getElementById("augDifference").value =
-    "The difference is ksh " + Math.round(augDifference) + " more.";
+    "You shall earn ksh " + Math.round(augDifference) + " more.";
   sepDifference = newIncomeSeptember - incomeSeptember;
   document.getElementById("sepDifference").value =
-    "The difference is ksh " + Math.round(sepDifference) + " more.";
+    "You shall earn ksh " + Math.round(sepDifference) + " more.";
   octDifference = newIncomeOctober - incomeOctober;
   document.getElementById("octDifference").value =
-    "The difference is ksh " + Math.round(octDifference) + " more.";
+    "You shall earn ksh " + Math.round(octDifference) + " more.";
   novDifference = newIncomeNovember - incomeNovember;
   document.getElementById("novDifference").value =
-    "The difference is ksh " + Math.round(novDifference) + " more.";
+    "You shall earn ksh " + Math.round(novDifference) + " more.";
   decDifference = newIncomeDecember - incomeDecember;
   document.getElementById("decDifference").value =
-    "The difference is ksh " + Math.round(decDifference) + " more.";
+    "You shall earn ksh " + Math.round(decDifference) + " more.";
 }
-// console.log
 
 // function weeklyIncome(selling_price, time);
 // = document.getElementById('.weekly-submit');

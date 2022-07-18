@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: monospace;
+    font-family: 'Space Grotesk';
 }
 
 .container{
@@ -28,7 +28,7 @@
 
 .container p{
     font-size: 20px;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 .container h2, p {
     color: #fafafa;
@@ -73,7 +73,7 @@
     padding: 10px;
     border: solid blue;
     background-color: #fafafa;
-    width: 70%;
+    width: 60%;
     height: 80%;
     display: flex;
     justify-content: space-between;
@@ -81,6 +81,7 @@
     flex-direction: column;
     position: relative;
     overflow: scroll;
+    font-size: 20px;
    
 }
 
@@ -101,12 +102,22 @@
     padding: 5px 10px;
     cursor: pointer;
     border-radius: 10px;
-    width: 40%;
+    width: 30%;
     
 }
 
+.popup-form h4{
+    font-size: 20px;
+    padding: 20px;
+}
+
 input{
-    /* justify-content: space-between; */
-    margin: 1%;
-    width: 70%;
+    /* justify-content: space-around; */
+    margin: 3%;
+    width: 75%;
+    font-size: 15px;
+    border: none;
+    box-shadow: 1px 2px 5px 1px;
+    border-radius: 5px;
+    padding: 10px;
 }
