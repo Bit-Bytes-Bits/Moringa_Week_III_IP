@@ -27,7 +27,9 @@ Reach out on Twitter:
 - [License](#license-information)
 
 ## Description
-
+This project is a demonstration of the concepts learnt from week 1 to week 3. Its aim is to create a production monitoring system for dairy cows that should take input in form of liters and price in Kenyan Shillings and produces the desired output.  
+          
+It is also capable of comparing price change when the buying price is adjusted accordingly. 
 
 ## Project Build Up
 
@@ -39,16 +41,29 @@ Reach out on Twitter:
 
 ## Requirements
 - A computer.  
+* Visual studio code with the following extensions and library:  
+
+          * Code Runner.
+          * Live Server.
+          * Prettier formater.
+          * Node JS should be installed prior to executing the codes on your computer.
+
 
 * A working internet connection.
 
 ## Program Setup
+1. Clone the repository to your computer using:
 
+        git clone (link to repository)
+
+2. Open the root of the folder on your visual studio code.
+
+3. Run Live share and view the rendered page. 
 
 
 ## Live Link To Project:  
 
-[Click here]()
+[Click here](https://bit-bytes-bits.github.io/Moringa_Week_III_IP/)
 
 ## License Information
 
