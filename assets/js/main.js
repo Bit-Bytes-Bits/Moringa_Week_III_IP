@@ -12,9 +12,9 @@ let sheds = {
     'D': 572
 }
 
-var myArray = new Array(Object.keys(sheds))
+// var myArray = new Array(Object.keys(sheds))
 var keys = Object.keys(sheds);
-console.log(myArray);
+// console.log(myArray);
 
 // for()
 
@@ -30,7 +30,8 @@ console.log(totalProdution(sheds));
 // console.log("Production for shed " + keys[0] + " is " + sheds.A + " liters today.");
 
 const prod = document.getElementById("production");
-prod.innerHTML ="Production for shed " + keys[0] + " is " + sheds.A + " liters today.";
+prod.innerHTML ="Production for shed " + keys[0] + " is " + sheds.A + " liters today.<br> Production for shed " + keys[1] + " is " + sheds.B + " liters today.";
+
 
 
 
